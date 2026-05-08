@@ -1,8 +1,9 @@
+import os
 import discord
 from discord.ext import commands
 from discord.ui import View, Modal, TextInput
 
-TOKEN = "COLOQUE_SEU_TOKEN"
+TOKEN = os.getenv("TOKEN")
 keys_validas = {
     "KALI-2020": None,
     "KALI-1234": None,
